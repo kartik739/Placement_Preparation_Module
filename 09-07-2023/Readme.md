@@ -1,7 +1,7 @@
 # Check if array is sorted
 
 // User function template for C++
-'''
+
 class Solution {
   public:
     bool arraySortedOrNot(int arr[], int n) {
@@ -17,7 +17,7 @@ class Solution {
         return true;
     }
 };
-'''
+
 # Insertion Sort
 
 class Solution
