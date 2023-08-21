@@ -20,17 +20,19 @@ public:
             slow=slow->next;
             fast=fast->next->next;
         }
-
+        
         if(fast==NULL) 
         {
             ListNode* m=slow->next;
             n->next=m;
+            delete slow;
             return head;
         }
         if(fast->next==NULL)
         {
             ListNode* m=slow->next;
             slow->next=m->next;
+            delete m;
             return head;
         }
         return head;   
