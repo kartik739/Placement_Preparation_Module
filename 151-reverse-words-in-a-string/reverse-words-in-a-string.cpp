@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-        string reverseWords(string s)
+        string reverseWords(string &s)
         {
             vector<string> arr;
 
