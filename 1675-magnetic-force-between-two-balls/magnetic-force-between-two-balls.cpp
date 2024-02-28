@@ -23,7 +23,6 @@ public:
         
         while(low <= high){
             int mid = low + (high - low)/2;
-            
             if(canWePlace(position, mid, m) == true){
                 low = mid + 1;
             }
